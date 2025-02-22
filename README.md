@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in PHP related to implicit returns within loops. The `bug.php` file contains a function with a conditional statement that prematurely exits the loop using an implicit return, leading to unexpected behavior. The `bugSolution.php` demonstrates a corrected version explicitly handling the return to avoid the unintended behavior.
